@@ -2,3 +2,71 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.header, .block-one, .footer {
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 72px;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.right-links, .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+.block-one {
+    display: flex;
+    padding: 72px;
+    gap: 8px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.image-container {
+    display: flex;
+    width: 400px;
+    flex-shrink: 0;
+    background-color: rgb(129, 138, 147);
+}
+
+.image {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: auto;
+}
+
+.button-one {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-width: 0;
+    padding: 6px 24px;
+    margin: 8px 0;
+    color:  #f9faf8;
+    font-weight: 900;
+}
