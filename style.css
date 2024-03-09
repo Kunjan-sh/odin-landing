@@ -70,3 +70,46 @@ ul {
     color:  #f9faf8;
     font-weight: 900;
 }
+
+
+.block-two {
+
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.subtext {
+    width: 150px;
+    font-size: 18px;
+    color: dimgray;
+    padding-top: 4px;
+    padding-bottom: 72px;
+}
+
+.picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading-two {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding: 32px;
+}
