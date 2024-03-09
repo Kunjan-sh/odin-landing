@@ -39,7 +39,8 @@ ul {
 .block-one {
     display: flex;
     padding: 72px;
-    gap: 8px;
+    gap: 16px;
+    justify-content: space-between;
 }
 
 .heading {
@@ -172,4 +173,17 @@ ul {
 .banner-subtext {
     color: lightgray;
     font-size: 24px;
+}
+
+
+.footer {
+    font-size: 20px;
+    font-weight: 500;
+    color: lightgray; 
+    display: flex;
+}
+
+.copyright {
+    margin: auto;
+    padding: 36px;
 }
